@@ -16,7 +16,7 @@ mix.js('src/js/app.js', 'dist/js')
    .version()
    .setPublicPath('dist');
 
-mix.browserSync('localhost/sharenjoy/mix');
+mix.browserSync('localhost/sharenjoy/mix/dist');
 
 // Full API
 // mix.js(src, output);
