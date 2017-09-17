@@ -1,20 +1,23 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
-    <el-radio class="radio" v-model="radio" label="1">備選項1</el-radio>
-    <el-radio class="radio" v-model="radio" label="2">備選項2</el-radio>
-    <el-radio class="radio" v-model="radio" label="3">備選項3</el-radio>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-default">
+          <div class="panel-heading">Example Component</div>
 
+          <div class="panel-body">
+            I'm an example component!
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   export default {
-    data () {
-      return {
-        msg: 'This is a Example',
-        radio: '2'
-      }
+    mounted() {
+      console.log('Component mounted.')
     }
   }
 </script>

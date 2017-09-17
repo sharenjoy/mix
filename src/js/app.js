@@ -9,16 +9,19 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-default/index.css';
+/**
+ * If wants to use ElementUI then uncomment the following section
+ */
+// import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-default/index.css';
+// Vue.use(ElementUI);
+// Vue.component('element-ui-example', require('./components/ElementUIExample.vue'));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-
-Vue.use(ElementUI);
 
 Vue.component('example', require('./components/Example.vue'));
 
