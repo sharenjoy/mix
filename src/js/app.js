@@ -13,8 +13,11 @@ window.Vue = require('vue');
  * If wants to use ElementUI then uncomment the following section
  */
 // import ElementUI from 'element-ui';
+// import { Button, Select } from 'element-ui'
 // import 'element-ui/lib/theme-default/index.css';
 // Vue.use(ElementUI);
+// Vue.use(Button);
+// Vue.use(Select);
 // Vue.component('element-ui-example', require('./components/ElementUIExample.vue'));
 
 /**
