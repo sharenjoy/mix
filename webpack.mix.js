@@ -17,6 +17,8 @@ mix.js('src/js/app.js', 'dist/js')
 
 if (mix.inProduction()) {
     mix.version();
+} else {
+    mix.sourceMaps();
 }
 
 mix.browserSync('localhost/sharenjoy/mix/dist');
