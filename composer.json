@@ -1,0 +1,16 @@
+{
+    "name": "sharenjoy/mix",
+    "authors": [
+        {
+            "name": "Ronald Jian",
+            "email": "ronald.jian@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "src/php/mix.php"
+        ]
+    }
+}
