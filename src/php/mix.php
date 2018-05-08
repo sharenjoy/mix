@@ -34,6 +34,7 @@
         if ($manifestDirectory && ! starts_with($manifestDirectory, '/')) {
             $manifestDirectory = "/{$manifestDirectory}";
         }
+        
         if (! $manifest) {
             if (! file_exists($manifestPath = ($rootPath . $manifestDirectory.'/mix-manifest.json') )) {
                 throw new Exception('The Mix manifest does not exist.');

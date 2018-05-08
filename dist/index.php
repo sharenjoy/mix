@@ -16,12 +16,20 @@
     
     <!-- styles -->
     <link href="<?php echo mix('css/app.css'); ?>" rel="stylesheet">
+    <link href="<?php echo mix('css/all.css'); ?>" rel="stylesheet">
   </head>
 
   <body>
+
+    <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a>
+
+    <br><br>
+
+    <a href="http://element.eleme.io/#/zh-CN/component/installation" target="_blank">http://element.eleme.io/#/zh-CN/component/installation</a>
     
     <!-- script -->
     <script src="<?php echo mix('js/app.js'); ?>"></script>
+    <script src="<?php echo mix('js/all.js'); ?>"></script>
 
   </body>
 </html>
